@@ -16,17 +16,47 @@ a {
   background-image: url("../images/cinema.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 10%;
 }
 
-.cinema h1 {
-  color: white;
+@media (min-width: 1366px) {
+  .cinema h1 {
+    color: white;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60%;
+    font-size: 150px;
+  }
+
+  .cinema button {
+    width: 300px;
+    height: 50px;
+    border-radius: 35px;
+    justify-content: center;
+    margin-left: 60%;
+  }
 }
 
-.cinema button {
-  width: 200px;
-  height: 70px;
-  border-radius: 35px;
+@media (min-width: 1921px) {
+  .cinema h1 {
+    color: white;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60%;
+    font-size: 200px;
+  }
+
+  .cinema button {
+    width: 400px;
+    height: 70px;
+    border-radius: 35px;
+    justify-content: center;
+    margin-left: 60%;
+  }
 }
+
 .cinema a {
   text-decoration: none;
 }
